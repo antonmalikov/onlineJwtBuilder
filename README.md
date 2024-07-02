@@ -1,6 +1,11 @@
 Online JSON Web Token Builder
 =============================
 
+Quick Start
+---------------
+1. docker build . -t localjwtgen
+1. docker run -d -p 3080:3000 --name jwt --rm localjwtgen
+
 NodeJS-based web application used to generate signed valid JSON Web Tokens to be used for testing. You can include both standard and custom claims, as well as specify your own symmetric signing key.
 
 Future plans for:
